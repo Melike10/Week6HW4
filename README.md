@@ -35,7 +35,7 @@ WHERE LENGTH(country) = 5;
 This query counts the number of country names in the country table that are exactly 5 characters long.
 
 ### 5. Count the number of city names that end with 'R' or 'r'
-sql
+```sql
 
 SELECT COUNT(*) FROM city 
 WHERE city ILIKE '%R';
